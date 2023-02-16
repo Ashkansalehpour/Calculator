@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0f106f397a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Calculator Container -->
+    <div class="container">
+                <!-- Screen of Calculator -->
+        <div class="display">
+            <input id="screen" type="text" placeholder="0">
+        </div>
+            <!-- Calculator buttons -->
+            <div class="btns">
+            <!-- First Box of buttons -->
+                <div class="row">
+                    <button id="ac" onclick="screen.value=''">AC</button>    
+                    <button onclick="sqrt()">√</button>
+                   
+                    <button class="btn">%</button>
+                    <button class="btn">(</button>
+                    <button class="btn">)</button>
+                    <button id="ce" onclick="backspace()"><i class="fas fa-backspace"></i></button>
+                </div>
+            <!-- Second Box of buttons -->
+                <div class="row">
+                    <button onclick="sin()" id="angle">sin</button>
+                    <button onclick="sqrt3()"> ∛ </button>
+                    <button class="btn">7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button class="btn" id="sign">÷</button>
+                </div>
+            <!-- Third Box of buttons -->
+                <div class="row">
+                    <button onclick="cos()" id="angle">cos</button>
+                    <button onclick="log()">log</button>
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn" id="sign">×</button>
+                </div>
+            <!-- Forth Box of buttons -->
+                <div class="row">
+                    <button onclick="tan()" id="angle">tan</button>
+                    <button onclick="pow3()">x <span style="position: relative; bottom: .4em; right: .1em;">3</span></button>
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    <button class="btn" id="sign">-</button>
+                </div>
+            <!-- Fifth Box of buttons -->
+            <div class="row">
+                <button onclick="pi()" id="angle">π</button>
+                <button onclick="pow()">x <span style="position: relative; bottom: .4em; right: .1em;">2</span>
+                </button>
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+                <button id="eval" onclick="screen.value=eval(screen.value)">=</button>
+                <button class="btn" id="sign">+</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
