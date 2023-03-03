@@ -1,60 +1,46 @@
-:root {
-  --clr-light: #ffffff;
+:root{
+   --clr-light: #ffffff;
   --clr-btn: #ffffff;
   --clr-BoxShadow: 13px 13px 20px #2994ff, -13px -13px 20px #bbb2ef;
   --clr-Btn-Shadow: 5px 5px 8px #00000020, -5px -5px 8px #ffffff87;
-  --clr-Btn-h-Shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1),
-    inset -5px -5px 8px #fff;
-  --clr-Calculator-display-shadow: inset 8px 8px 8px #cbced1,
-    inset -8px -8px 8px #ffffff;
+  --clr-Btn-h-Shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1), inset -5px -5px 8px #fff;;
+  --clr-Calculator-display-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
   --clr-eval-btn: #33ccff;
   --clr-eval-h-shadow: inset 5px 5px 8px #00ace6, inset -5px -5px 8px #00ace6;
   --clr-ac-btn: #fdb82d;
   --clr-ac-h-btn: inset 5px 5px 8px #1a19105c, inset -5px -5px 8px #f7e6806b;
-  --clr-ce-btn: #defcf9;
-  --clr-ce-h-btn: rgba(50, 36, 36, 0.18) 5px 5px 8px inset,
-    rgb(42 27 58 / 15%) -5px -5px 8px inset;
-  --clr-angle-btn: #fdb82d;
-  --clr-angle-h-btn: inset 5px 5px 8px rgba(16, 16, 16, 0.1),
-    inset -5px -5px 8px #fff;
+  --clr-ce-btn: #defcf9;;;
+  --clr-ce-h-btn:  rgba(50, 36, 36, 0.18) 5px 5px 8px inset, rgb(42 27 58 / 15%) -5px -5px 8px inset;
+  --clr-angle-btn: #fdb82d;;
+  --clr-angle-h-btn:  inset 5px 5px 8px rgba(16, 16, 16, 0.1), inset -5px -5px 8px #fff;
   --clr-sign-btn: #cadefc;
-  --clr-sign-h-btn: inset 5px 5px 8px rgb(16 16 16 / 8%),
-    inset -5px -5px 8px #ffffff6b;
-  --clr-Bg-light: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-  --clr-Bg-Dark: linear-gradient(120deg, #1d1921 0%, #8ec5fc 100%);
-  --foreground: #ece3f4;
+  --clr-sign-h-btn:  inset 5px 5px 8px rgb(16 16 16 / 8%), inset -5px -5px 8px #ffffff6b;
+  --clr-Bg-light:linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  --clr-Bg-Dark:linear-gradient(120deg, #1d1921 0%, #8ec5fc 100%);
+  --foreground:#ece3f4;
 }
 /* DarkMode Colors */
-.darkmode {
+.darkmode{
   --clr-light: #181a1b;
   --clr-btn: #3f4f54;
   --clr-BoxShadow: inset 8px 8px 8px #2c3034, inset -8px -8px 8px #272727;
   --clr-Btn-Shadow: 5px 5px 8px #0a040420, -5px -5px 8px #00000087;
-  --clr-Btn-h-Shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1),
-    inset -5px -5px 8px #fff;
-  --clr-Calculator-display-shadow: inset 8px 8px 8px #2c3034,
-    inset -8px -8px 8px #272727;
+  --clr-Btn-h-Shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1), inset -5px -5px 8px #fff;;
+  --clr-Calculator-display-shadow:  inset 8px 8px 8px #2c3034, inset -8px -8px 8px #272727;
   --clr-eval-btn: #33ccff;
   --clr-eval-h-shadow: inset 5px 5px 8px #00ace6, inset -5px -5px 8px #00ace6;
   --clr-ac-btn: #866013;
   --clr-ac-h-btn: inset 5px 5px 8px #1a19105c, inset -5px -5px 8px #f7e6800f;
   --clr-ce-btn: #06433e;
-  --clr-ce-h-btn: rgba(50, 36, 36, 0.18) 5px 5px 8px inset,
-    rgb(42 27 58 / 15%) -5px -5px 8px inset;
-  --clr-angle-btn: #fdb82d;
-  --clr-angle-h-btn: inset 5px 5px 8px rgb(0 0 0 / 10%),
-    inset -5px -5px 8px #1f19197a;
+  --clr-ce-h-btn:  rgba(50, 36, 36, 0.18) 5px 5px 8px inset, rgb(42 27 58 / 15%) -5px -5px 8px inset;
+  --clr-angle-btn: #fdb82d;;
+  --clr-angle-h-btn: inset 5px 5px 8px rgb(0 0 0 / 10%), inset -5px -5px 8px #1f19197a;
   --clr-sign-btn: #282b2d;
-  --clr-sign-h-btn: inset 5px 5px 8px rgb(16 16 16 / 8%),
-    inset -5px -5px 8px #ffffff1c;
-  --clr-Bg-light: linear-gradient(
-    109.6deg,
-    rgba(0, 0, 0, 0.93) 11.2%,
-    rgb(63, 61, 61) 78.9%
-  );
-  --clr-Bg-Dark: linear-gradient(120deg, #1d1921 0%, #8ec5fc 100%);
-  --foreground: #37333c;
-  --clr-num: #ffff;
+  --clr-sign-h-btn:   inset 5px 5px 8px rgb(16 16 16 / 8%), inset -5px -5px 8px #ffffff1c;
+  --clr-Bg-light:linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  --clr-Bg-Dark:linear-gradient(120deg, #1d1921 0%, #8ec5fc 100%);
+  --foreground:#37333c;
+  --clr-num:#ffff
 }
 body {
   padding: 0;
@@ -63,17 +49,18 @@ body {
   justify-content: center;
   align-items: center;
   background: var(--clr-Bg-light);
+
 }
 
 .container {
   margin: 4% auto;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: var(--clr-BoxShadow);
-  background: var(--foreground);
+  box-shadow:var(--clr-BoxShadow);
+  background: var(--foreground);  
 }
 /* Num Styles */
-.row button {
+ .row button {
   width: 70px;
   height: 75px;
   font-size: 19px;
@@ -83,14 +70,14 @@ body {
   border-radius: 50%;
   box-shadow: var(--clr-Btn-Shadow);
   cursor: pointer;
-  transition: 0.2s all;
+  transition: .2s all;
   background: var(--clr-btn);
 }
 
 .row button:hover {
   box-shadow: var(--clr-Btn-h-Shadow);
   background: #fff;
-}
+} 
 /* Display number box */
 .display #screen {
   margin-bottom: 29px;
@@ -108,11 +95,11 @@ body {
 }
 
 /* Mathematical signs style */
-#eval {
+ #eval {
   background: var(--clr-eval-btn);
   color: #fff;
   box-shadow: inset 5px 5px 8px #66d9ff, inset -5px -5px 8px #00ace6;
-  transition: 0.2s all;
+  transition: .2s all;
 }
 
 #eval:hover {
@@ -120,39 +107,40 @@ body {
 }
 
 #ac {
-  background: var(--clr-ac-btn);
-  color: #fff;
-  transition: 0.2s all;
+    background: var(--clr-ac-btn);
+    color: #fff;
+    transition: .2s all;
+    
 }
 
 #ac:hover {
-  box-shadow: var(--clr-ac-h-btn);
+    box-shadow: var(--clr-ac-h-btn)
 }
 
 #ce {
-  background: var(--clr-ce-btn);
-  color: #fff;
+    background: var(--clr-ce-btn); 
+    color: #fff;
 }
 
 #ce:hover {
-  box-shadow: var(--clr-ce-h-btn);
+    box-shadow: var(--clr-ce-h-btn)
 }
 
 #angle {
-  background: var(--clr-angle-btn);
-  transition: 0.2s all;
+    background: var(--clr-angle-btn);
+    transition: .2s all;
 }
 #angle:hover {
-  box-shadow: var(--clr-angle-h-btn);
+    box-shadow: var(--clr-angle-h-btn);
 }
 
 #sign {
-  background: var(--clr-sign-btn);
-  transition: 0.2s all;
-}
+    background: var(--clr-sign-btn);
+    transition: .2s all;;
+} 
 
-#sign:hover {
-  box-shadow: var(--clr-sign-h-btn);
+#sign:hover{
+    box-shadow: var(--clr-sign-h-btn);
 }
 /* DarkMode Toggle */
 .dark-mode-toggle {
@@ -169,3 +157,4 @@ body {
   width: 30px;
   height: 30px;
 }
+
